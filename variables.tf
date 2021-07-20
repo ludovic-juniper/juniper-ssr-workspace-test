@@ -20,7 +20,7 @@
 variable "vnf_cos_image_url" {
 #  default     = "cos://ap-geo/asloma-juniper-bucket/junos-vsrx3-x86-64-19.4R3.11.qcow2"
 #  default     = "cos://eu-de/vsrx-eu-de-cos-bucket/junos-vsrx3-x86-64-21.1R1.11.qcow2"
-  default     = "cos://eu-de/juniper-ssr-eu-de-cos-bucket/virtioa-SSR-513.qcow2"
+  default     = "cos://us-south/juniper-ssr-us-south-cos-bucket/virtioa-SSR-513.qcow2"
   description = "The COS image object SQL URL for vSRX 19.4R3.11 qcow2 image."
 }
 
