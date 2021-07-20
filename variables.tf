@@ -83,7 +83,7 @@ variable "vnf_instance_name" {
 # vnf_profile - The profile of compute CPU and memory resources to be used when provisioning Ubuntu VSI.
 ##############################################################################
 variable "vnf_profile" {
-  default     = "bx2-2x8"
+  default     = "bx2-4x16"
   description = "The profile of compute CPU and memory resources to be used when provisioning Ubuntu VSI. To list available profiles, run `ibmcloud is instance-profiles`."
 }
 
