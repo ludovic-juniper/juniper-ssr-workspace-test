@@ -59,7 +59,7 @@ variable "ssh_key_name" {
 # vnf_vpc_image_name - The name of the Custom image to be provisioned in your IBM Cloud account.
 ##############################################################################
 variable "vnf_vpc_image_name" {
-  default     = "juniper-ssr-513-3int"
+  default     = "juniper-ssr-520-3int"
   description = "The name of the Custom image to be provisioned in your IBM Cloud account."
 }
 
